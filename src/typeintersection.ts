@@ -1,0 +1,4 @@
+const draggable = {
+    drag: () => void
+}
+
