@@ -28,6 +28,12 @@ const userTuple: [number, string, boolean, number, boolean] = [
 ];
 // userTuple.push(45);
 console.log("userTuple", userTuple);
+console.log(" Type of userTuple", typeof userTuple);
+
+
+const secondUserTuple: string[] = ["dharti", "dudhat", "kano", "patel"];
+console.log(" type of Second User Tuple", typeof secondUserTuple);
+
 
 // Enums
 // const small =1;

@@ -3,7 +3,7 @@ type Employee = {
   name: string;
   email: string;
   age?: number;  // it become optional if any one wants to add o not 
-  retire: (date: Date) => void;
+  retire?: (date: Date) => void;
 };
 
 const emp: Employee = {
