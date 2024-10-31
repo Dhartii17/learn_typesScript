@@ -6,11 +6,13 @@ let is_published: Boolean = true;
 let level;
 
 // any type
-function userInfo(description: any) {
+function userInfo(description: any): void {
   console.log("description Value", description);
 }
 
 userInfo(true);
+userInfo(124);
+userInfo("Dharti");
 // Array
 
 const numberArr = [1, 2, "3"]; // it throw an error
@@ -30,10 +32,8 @@ const userTuple: [number, string, boolean, number, boolean] = [
 console.log("userTuple", userTuple);
 console.log(" Type of userTuple", typeof userTuple);
 
-
 const secondUserTuple: string[] = ["dharti", "dudhat", "kano", "patel"];
 console.log(" type of Second User Tuple", typeof secondUserTuple);
-
 
 // Enums
 // const small =1;
@@ -74,15 +74,15 @@ const employee: {
   },
 };
 
-const empThree: Employee = {
-  id: 4,
-  name: "test",
-  email: "test@gmail.com",
-  age: 24,
-  retire: (date) => {
-    console.log("date ", date);
-  },
-};
+// const empThree: Employee = {
+//   id: 4,
+//   name: "test",
+//   email: "test@gmail.com",
+//   age: 24,
+//   retire: (date) => {
+//     console.log("date ", date);
+//   },
+// };
 
-console.log("print the emp object", employee);
-console.log("Type Alias ", empThree);
+// console.log("print the emp object", employee);
+// console.log("Type Alias ", empThree);
