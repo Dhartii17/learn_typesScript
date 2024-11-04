@@ -1,6 +1,6 @@
 //  Literal TYPES means Exact/ specified we need to user only this value
 
-type Color = "red" | "Blue" | "White";
+type Color = "Red" | "Blue" | "White";
 
 function getColorMessage(color: Color): string {
     return `the selected color is ${color}`;
@@ -9,7 +9,7 @@ function getColorMessage(color: Color): string {
 console.log(getColorMessage("White"));
 
 // Nullable Types
-// ts is strict in null it give erro rduring compile time it self
+// ts is strict in null it give error during compile time it self
 
 function getName(name: string | null | undefined) {
     if (name) {
@@ -19,5 +19,5 @@ function getName(name: string | null | undefined) {
     }
 }
 
-// getName(null) it not allow but when we use union type it allow to pass null in function
-getName(null);
+// getName(null)  //it not allow but when we use union type it allow to pass null in function
+// getName("");

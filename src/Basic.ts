@@ -15,7 +15,7 @@ userInfo(124);
 userInfo("Dharti");
 // Array
 
-const numberArr = [1, 2, "3"]; // it throw an error
+const numberArr = [1, 2, "3"];
 // const numberArrOne: number[] = [1, 2, "3"]; //not work
 const numberArrTwo: number[] = [1, 2, 3];
 console.log("number Array with number & string", numberArr);
@@ -72,6 +72,7 @@ const employee: {
   retire: (date) => {
     console.log(date);
   },
+
 };
 
 // const empThree: Employee = {
